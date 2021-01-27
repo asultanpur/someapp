@@ -8,4 +8,4 @@
   (into [] (sql/query spec ["select * from ss order by id desc limit 128"])))
 
 (defn create [s]
-  (sql/insert! spec :shouts [:body] [s]))
+  (sql/insert! spec :ss [:body] [s]))
