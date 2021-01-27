@@ -1,0 +1,7 @@
+{
+  "name": "Someapp",
+  "description": "A simple clojure webapp that demonstrates the usage of ring, compojure and hicup libraries",
+  "repository": "",
+  "keywords": ["clojure", "ring", "compjure", "hickup", "demo"],
+  "addons": ["heroku-postgresql"]
+}
