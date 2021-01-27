@@ -9,7 +9,7 @@
   (:gen-class))
 
 (defroutes routes
-  shouts/routes
+  ss/routes
   (route/resources "/")
   (route/not-found (layout/four-oh-four)))
 
